@@ -1,4 +1,6 @@
 # Battleship (ASM)
+[Download EXE](https://github.com/DanielCouturier/asm-battleship/blob/main/Project.exe)
+
 The requirements for ths project were to create a simple game in MASM (Microsoft Assembly).
 
 I chose to recreate the classic two-player board game BattleShip. Normally, each player places 5 ships of different lengths on the board (a coordinate grid), obscured from their opponent. Then each player takes turns guessing coordinates. If a player guesses a coordinate which overlaps with part of their opponents ship, the opponent must declare a "Hit". When a player hits every segment of their opponent's ship, the opponent must declare their ship has been "Sunk". A player wins when they sink all 5 of their opponents ships. 
@@ -8,7 +10,7 @@ In my implementation, I chose to allow one human player, who plays against an AI
 This project was originally submitted as a final project for CSE 3120 (Computer Architecture and Assembly) (2024).
 All submissions participated in a peer-evaluated competition. This project placed 5th out of 15.
 
-Written in MASM, compiled with Visual Studio 2015 (v140), Windows SDK 8.1 
+Written in MASM, compiled with Visual Studio 2015 (v140), Targeted for Windows SDK 8.1 
 Dependent Library: [Irvine32](https://www.asmirvine.com/gettingStartedVS2015/)
 
 ![image](https://github.com/user-attachments/assets/a25c398a-9479-4186-b254-e8d7fb17ae29)
