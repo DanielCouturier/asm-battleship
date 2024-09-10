@@ -1,4 +1,4 @@
-# asm-battleship
+# Battleship (ASM)
 The requirements for ths project were to create a simple game in MASM (Microsoft Assembly).
 
 I chose to recreate the classic two-player board game BattleShip. Normally, each player places 5 ships of different lengths on the board (a coordinate grid), obscured from their opponent. Then each player takes turns guessing coordinates. If a player guesses a coordinate which overlaps with part of their opponents ship, the opponent must declare a "Hit". When a player hits every segment of their opponent's ship, the opponent must declare their ship has been "Sunk". A player wins when they sink all 5 of their opponents ships. 
