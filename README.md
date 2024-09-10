@@ -5,7 +5,7 @@ I chose to recreate the classic two-player board game BattleShip. Normally, each
 
 In my implementation, I chose to allow one human player, who plays against an AI, since a two player game on a single device can be confusing for the user. At the start of the game, the user chooses the difficulty for the AI between 1 and 100, which represents the probability the AI guesses correctly each turn. Towards the end of the game the AI might be forced to guess correctly if there are no remaining incorrect guesses to make. 
 
-This project was originally submitted as a final project for CSE 3120 (Computer Architecture and Assembly) (2024)
+This project was originally submitted as a final project for CSE 3120 (Computer Architecture and Assembly) (2024).
 All submissions participated in a peer-evaluated competition. This project placed 5th out of 15.
 
 Written in MASM, compiled with Visual Studio 2015 (v140), Windows SDK 8.1 
@@ -23,5 +23,5 @@ Dependent Library: [Irvine32](https://www.asmirvine.com/gettingStartedVS2015/)
 * Guess.asm - controls the UI for the second part of the game (when the user tries to guess AI ship placement)
 * RandomGuess.asm - code for the AI to guess randomly
 * BoardWins.asm - called upon any user or AI guess to see if the game should end
-* PrintBoard.asm & PrintCursor.asm - handles all draw calls to the console.
-* Remaining asm files are miscellaneous util functions that would be trivial in higher level languages and dont need much explanation.
+* PrintBoard.asm & PrintCursor.asm - handles all draw calls to the console
+* Remaining asm files are miscellaneous util functions that would be trivial in higher level languages and dont need much explanation
